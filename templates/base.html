@@ -30,7 +30,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datasets <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Databases <span class="caret"></span></a>
             <ul class="dropdown-menu">
               {% for dataset in datasets %}
                 <li><a href="{{dataset.getHtmlName()}}">{{dataset.title}}</a></li>
@@ -40,7 +40,7 @@
         </ul>
         <div class="navbar-form navbar-right" role="search">
           <div class="input-group">
-            <input type="input" id="search-nav" placeholder="&#xf002; Search datasets" class="form-control" style="font-family:Arial, FontAwesome;"/>
+            <input type="input" id="search-nav" placeholder="&#xf002; Search databases" class="form-control" style="font-family:Arial, FontAwesome;"/>
           </div>
         </div>
       </div><!--/.nav-collapse -->
@@ -49,7 +49,7 @@
 
   <!-- search modal -->
   <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -57,7 +57,7 @@
         </div>
         <div class="modal-body">
           <div class="input-group" style="margin-bottom: 25px;">
-            <input type="input" id="search" placeholder="&#xf002; Search datasets" class="form-control" style="font-family:Arial, FontAwesome;"/>
+            <input type="input" id="search" placeholder="&#xf002; Search databases" class="form-control" style="font-family:Arial, FontAwesome;"/>
           </div>
           <div class="content" id="search-results"></div>
         </div>
@@ -130,7 +130,7 @@ $("#search").keyup(function(){
     displayResults += '<tr>';
     displayResults += '<th>Field</th>';
     displayResults += '<th>Category</th>';
-    displayResults += '<th>Dataset</th>';
+    displayResults += '<th>Databases</th>';
     displayResults += '</tr>';
 
     // prepare the results to display

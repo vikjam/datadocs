@@ -1,0 +1,1902 @@
+categories:
+- description: 'This file contains data on the number of full-time, first-time degree/certificate-seeking
+    undergraduate students and all undergraduate students who receive different types
+    of student financial aid, including grants and loans, from different sources at
+    each institution. Sources and types of aid reported for full-time, first-time
+    degree/certificate-seeking undergraduate students include federal grants, Pell
+    grants, other federal grants, state/local grants, grants from the institution,
+    federal and nonfederal student loans. Types of aid reported for all undergraduates
+    include total grants, pell grants and federal loans. Included are the total and
+    average dollar amount of aid received by these students. This file also contains
+    the average net price at each institution for the following two groups: (1) full-time,
+    first-time degree/certificate-seeking undergraduate students who receive grant
+    and scholarship aid; and (2) full-time, first-time degree/certificate-seeking
+    undergraduate students who receive Title IV federal student aid. For public institutions,
+    group 1 and group 2 include only students who pay the in-district or in-state
+    tuition rate.
+
+
+
+    '
+  fields:
+  - description: Unique identification number of the institution
+    name: UNITID
+    type: Numeric
+  - description: Long-term investments
+    name: F2A01
+    type: Numeric
+  - description: Total assets
+    name: F2A02
+    type: Numeric
+  - description: Total liabilities
+    name: F2A03
+    type: Numeric
+  - description: Debt related to Property, Plant, and Equipment
+    name: F2A03A
+    type: Numeric
+  - description: Total unrestricted net assets
+    name: F2A04
+    type: Numeric
+  - description: Total restricted net assets
+    name: F2A05
+    type: Numeric
+  - description: Permanently restricted net assets included in total restricted net
+      assets
+    name: F2A05A
+    type: Numeric
+  - description: Temporarily restricted net assets
+    name: F2A05B
+    type: Numeric
+  - description: Total net assets
+    name: F2A06
+    type: Numeric
+  - description: Land  improvements - End of year
+    name: F2A11
+    type: Numeric
+  - description: Buildings - End of year
+    name: F2A12
+    type: Numeric
+  - description: Equipment, including art and library collections - End of year
+    name: F2A13
+    type: Numeric
+  - description: Construction in Progress
+    name: F2A15
+    type: Numeric
+  - description: Other plant, property and equipment
+    name: F2A16
+    type: Numeric
+  - description: Total Plant, Property, and Equipment
+    name: F2A17
+    type: Numeric
+  - description: Accumulated depreciation
+    name: F2A18
+    type: Numeric
+  - description: Property, Plant, and Equipment, net of accumulated depreciation
+    name: F2A19
+    type: Numeric
+  - description: Intangible Assets, net of accumulated amortization
+    name: F2A20
+    type: Numeric
+  - description: Total revenues and investment return
+    name: F2B01
+    type: Numeric
+  - description: Total expenses
+    name: F2B02
+    type: Numeric
+  - description: Other specific changes in net assets
+    name: F2B03
+    type: Numeric
+  - description: Total change in net assets
+    name: F2B04
+    type: Numeric
+  - description: Net assets, beginning of the year
+    name: F2B05
+    type: Numeric
+  - description: Adjustments to beginning of year net assets
+    name: F2B06
+    type: Numeric
+  - description: Net assets, end of the year
+    name: F2B07
+    type: Numeric
+  - description: Pell grants
+    name: F2C01
+    type: Numeric
+  - description: Other federal grants
+    name: F2C02
+    type: Numeric
+  - description: State grants
+    name: F2C03
+    type: Numeric
+  - description: Local grants
+    name: F2C04
+    type: Numeric
+  - description: Institutional grants (funded)
+    name: F2C05
+    type: Numeric
+  - description: Institutional grants (unfunded)
+    name: F2C06
+    type: Numeric
+  - description: Total student grants
+    name: F2C07
+    type: Numeric
+  - description: Allowances applied to tuition and fees
+    name: F2C08
+    type: Numeric
+  - description: Allowances applied to auxiliary enterprise revenues
+    name: F2C09
+    type: Numeric
+  - description: Tuition and fees - Total
+    name: F2D01
+    type: Numeric
+  - description: Tuition and fees - Unrestricted
+    name: F2D012
+    type: Numeric
+  - description: Tuition and fees - Temporarily restricted
+    name: F2D013
+    type: Numeric
+  - description: Tuition and fees - Permanently restricted
+    name: F2D014
+    type: Numeric
+  - description: Federal appropriations - Total
+    name: F2D02
+    type: Numeric
+  - description: Federal appropriations - Unrestricted
+    name: F2D022
+    type: Numeric
+  - description: Federal appropriations - Temporarily restricted
+    name: F2D023
+    type: Numeric
+  - description: Federal appropriations - Permanently restricted
+    name: F2D024
+    type: Numeric
+  - description: State appropriations - Total
+    name: F2D03
+    type: Numeric
+  - description: State appropriations - Unrestricted
+    name: F2D032
+    type: Numeric
+  - description: State appropriations - Temporarily restricted
+    name: F2D033
+    type: Numeric
+  - description: State appropriations - Permanently restricted
+    name: F2D034
+    type: Numeric
+  - description: Local appropriations - Total
+    name: F2D04
+    type: Numeric
+  - description: Local appropriations - Unrestricted
+    name: F2D042
+    type: Numeric
+  - description: Local appropriations -  Temporarily restricted
+    name: F2D043
+    type: Numeric
+  - description: Local appropriations - Permanently restricted
+    name: F2D044
+    type: Numeric
+  - description: Federal grants and contracts - Total
+    name: F2D05
+    type: Numeric
+  - description: Federal grants and contracts - Unrestricted
+    name: F2D052
+    type: Numeric
+  - description: Federal grants and contracts  - Temporarily restricted
+    name: F2D053
+    type: Numeric
+  - description: Federal grants and contracts - Pemanently restricted
+    name: F2D054
+    type: Numeric
+  - description: State grants and contracts - Total
+    name: F2D06
+    type: Numeric
+  - description: State grants and contracts - Unrestricted
+    name: F2D062
+    type: Numeric
+  - description: State grants and contracts - Temporarily restricted
+    name: F2D063
+    type: Numeric
+  - description: State grants and contracts - Permanently restricted
+    name: F2D064
+    type: Numeric
+  - description: Local grants and contracts - Total
+    name: F2D07
+    type: Numeric
+  - description: Local grants and contracts - Unrestricted
+    name: F2D072
+    type: Numeric
+  - description: Local grants and contracts - Temporarily restricted
+    name: F2D073
+    type: Numeric
+  - description: Local grants and contracts  - Permanently restricted
+    name: F2D074
+    type: Numeric
+  - description: Private gifts, grants, and contracts - Total
+    name: F2D08
+    type: Numeric
+  - description: Private gifts, grants, and contracts - Unrestricted
+    name: F2D082
+    type: Numeric
+  - description: Private gifts, grants and contracts - Temporarily restricted
+    name: F2D083
+    type: Numeric
+  - description: Private gifts, grants, and contracts - Permanently restricted
+    name: F2D084
+    type: Numeric
+  - description: Private gifts - Total
+    name: F2D08A
+    type: Numeric
+  - description: Private gifts - Unrestricted
+    name: F2D082A
+    type: Numeric
+  - description: Private gifts - Temporarily restricted
+    name: F2D083A
+    type: Numeric
+  - description: Private gifts - Permanentlly restricted
+    name: F2D084A
+    type: Numeric
+  - description: Private grants and contrants - Total
+    name: F2D08B
+    type: Numeric
+  - description: Private grants and contracts - Unrestricted
+    name: F2D082B
+    type: Numeric
+  - description: Private grants and contracts - Temporarily restricted
+    name: F2D083B
+    type: Numeric
+  - description: Private grants, and contracts - Permanently restricted
+    name: F2D084B
+    type: Numeric
+  - description: Contributions from affiliated entities - Total
+    name: F2D09
+    type: Numeric
+  - description: Contributions from affiliated entities - Unrestricted
+    name: F2D092
+    type: Numeric
+  - description: Contributions from affiliated entities - Temporarily restricted
+    name: F2D093
+    type: Numeric
+  - description: Contributions from affiliated entities - Permanently restricted
+    name: F2D094
+    type: Numeric
+  - description: Investment return - Total
+    name: F2D10
+    type: Numeric
+  - description: Investment return - Unrestricted
+    name: F2D102
+    type: Numeric
+  - description: Investment return - Temporarily restricted
+    name: F2D103
+    type: Numeric
+  - description: Investment return - Permanently restricted
+    name: F2D104
+    type: Numeric
+  - description: Sales and services of educational activities - Total
+    name: F2D11
+    type: Numeric
+  - description: Sales and services of educational activities - Unrestricted
+    name: F2D112
+    type: Numeric
+  - description: Sales and services of auxiliary enterprises - Total
+    name: F2D12
+    type: Numeric
+  - description: Sales and services of auxiliary enterprises - Unrestricted
+    name: F2D122
+    type: Numeric
+  - description: Hospital revenue - Total
+    name: F2D13
+    type: Numeric
+  - description: Hospital revenue - Unrestricted
+    name: F2D132
+    type: Numeric
+  - description: Independent operations revenue - Total
+    name: F2D14
+    type: Numeric
+  - description: Independent operations revenue - Unrestricted
+    name: F2D142
+    type: Numeric
+  - description: Independent operations revenue - Temporarily restricted
+    name: F2D143
+    type: Numeric
+  - description: Independent operations revenue - Permanently restricted
+    name: F2D144
+    type: Numeric
+  - description: Other revenue - Total
+    name: F2D15
+    type: Numeric
+  - description: Other revenue - Unrestricted
+    name: F2D152
+    type: Numeric
+  - description: Other revenue - Temporarily restricted
+    name: F2D153
+    type: Numeric
+  - description: Other revenue - Permanently restricted
+    name: F2D154
+    type: Numeric
+  - description: Total revenues and investment return - Total
+    name: F2D16
+    type: Numeric
+  - description: Total revenues and investment return - Unrestricted
+    name: F2D162
+    type: Numeric
+  - description: Total revenues and investment return - Temporarily restricted
+    name: F2D163
+    type: Numeric
+  - description: Total revenues and investment return - Permanently restricted
+    name: F2D164
+    type: Numeric
+  - description: Net assets released from restriction - Total
+    name: F2D17
+    type: Numeric
+  - description: Net assets released from restriction - Unrestricted
+    name: F2D172
+    type: Numeric
+  - description: Net assets released from restriction - Temporarily restricted
+    name: F2D173
+    type: Numeric
+  - description: Net assets released from restriction - Permanently restricted
+    name: F2D174
+    type: Numeric
+  - description: Net total revenues, after assets released from restriction - Total
+    name: F2D18
+    type: Numeric
+  - description: Net total revenues, after assets released from restriction - Unrestricted
+    name: F2D182
+    type: Numeric
+  - description: Net total revenues, after assets released from restriction - Temporarily
+      restricted
+    name: F2D183
+    type: Numeric
+  - description: Net total revenues, after assets released from restriction - Permanently
+      restricted
+    name: F2D184
+    type: Numeric
+  - description: Instruction-Total amount
+    name: F2E011
+    type: Numeric
+  - description: Instruction-Salaries and wages
+    name: F2E012
+    type: Numeric
+  - description: Instruction-Benefits
+    name: F2E013
+    type: Numeric
+  - description: Instruction-Operation and maintenance of plant
+    name: F2E014
+    type: Numeric
+  - description: Instruction-Depreciation
+    name: F2E015
+    type: Numeric
+  - description: Instruction-Interest
+    name: F2E016
+    type: Numeric
+  - description: Instruction-All other
+    name: F2E017
+    type: Numeric
+  - description: Research-Total amount
+    name: F2E021
+    type: Numeric
+  - description: Research-Salaries and wages
+    name: F2E022
+    type: Numeric
+  - description: Research-Benefits
+    name: F2E023
+    type: Numeric
+  - description: Research-Operation and maintenance of plant
+    name: F2E024
+    type: Numeric
+  - description: Research-Depreciation
+    name: F2E025
+    type: Numeric
+  - description: Research-Interest
+    name: F2E026
+    type: Numeric
+  - description: Research-All other
+    name: F2E027
+    type: Numeric
+  - description: Public service-Total amount
+    name: F2E031
+    type: Numeric
+  - description: Public service-Salaries and wages
+    name: F2E032
+    type: Numeric
+  - description: Public service-Benefits
+    name: F2E033
+    type: Numeric
+  - description: Public service-Operation and maintenance of plant
+    name: F2E034
+    type: Numeric
+  - description: Public service-Depreciation
+    name: F2E035
+    type: Numeric
+  - description: Public service-Interest
+    name: F2E036
+    type: Numeric
+  - description: Public service-All other
+    name: F2E037
+    type: Numeric
+  - description: Academic support-Total amount
+    name: F2E041
+    type: Numeric
+  - description: Academic support-Salaries and wages
+    name: F2E042
+    type: Numeric
+  - description: Academic support-Benefits
+    name: F2E043
+    type: Numeric
+  - description: Academic support-Operation and maintenance of plant
+    name: F2E044
+    type: Numeric
+  - description: Academic support-Depreciation
+    name: F2E045
+    type: Numeric
+  - description: Academic support-Interest
+    name: F2E046
+    type: Numeric
+  - description: Academic support-All other
+    name: F2E047
+    type: Numeric
+  - description: Student service-Total amount
+    name: F2E051
+    type: Numeric
+  - description: Student service-Salaries and wages
+    name: F2E052
+    type: Numeric
+  - description: Student service-Benefits
+    name: F2E053
+    type: Numeric
+  - description: Student service-Operation and maintenance of plant
+    name: F2E054
+    type: Numeric
+  - description: Student service-Depreciation
+    name: F2E055
+    type: Numeric
+  - description: Student service-Interest
+    name: F2E056
+    type: Numeric
+  - description: Student service-All other
+    name: F2E057
+    type: Numeric
+  - description: Institutional support-Total amount
+    name: F2E061
+    type: Numeric
+  - description: Institutional support-Salaries and wages
+    name: F2E062
+    type: Numeric
+  - description: Institutional support-Benefits
+    name: F2E063
+    type: Numeric
+  - description: Institutional support-Operation and maintenance of plant
+    name: F2E064
+    type: Numeric
+  - description: Institutional support-Depreciation
+    name: F2E065
+    type: Numeric
+  - description: Institutional support-Interest
+    name: F2E066
+    type: Numeric
+  - description: Institutional support-All other
+    name: F2E067
+    type: Numeric
+  - description: Auxiliary enterprises-Total amount
+    name: F2E071
+    type: Numeric
+  - description: Auxiliary enterprises-Salaries and wages
+    name: F2E072
+    type: Numeric
+  - description: Auxiliary enterprises-Benefits
+    name: F2E073
+    type: Numeric
+  - description: Auxiliary enterprises-Operation and maintenance of plant
+    name: F2E074
+    type: Numeric
+  - description: Auxiliary enterprises-Depreciation
+    name: F2E075
+    type: Numeric
+  - description: Auxiliary enterprises-Interest
+    name: F2E076
+    type: Numeric
+  - description: Auxiliary enterprises-All other
+    name: F2E077
+    type: Numeric
+  - description: Net grant aid to students-Total amount
+    name: F2E081
+    type: Numeric
+  - description: Net grant aid to students-All other
+    name: F2E087
+    type: Numeric
+  - description: Hospital services-Total amount
+    name: F2E091
+    type: Numeric
+  - description: Hospital services-Salaries and wages
+    name: F2E092
+    type: Numeric
+  - description: Hospital services-Benefits
+    name: F2E093
+    type: Numeric
+  - description: Hospital services-Operation and maintenance of plant
+    name: F2E094
+    type: Numeric
+  - description: Hospital services-Depreciation
+    name: F2E095
+    type: Numeric
+  - description: Hospital services-Interest
+    name: F2E096
+    type: Numeric
+  - description: Hospital services-All other
+    name: F2E097
+    type: Numeric
+  - description: Independent operations-Total Amount
+    name: F2E101
+    type: Numeric
+  - description: Independent operations-Salaries and wages
+    name: F2E102
+    type: Numeric
+  - description: Independent operations-Benefits
+    name: F2E103
+    type: Numeric
+  - description: Independent operations-Operation and maintenance of plant
+    name: F2E104
+    type: Numeric
+  - description: Independent operations-Depreciation
+    name: F2E105
+    type: Numeric
+  - description: Independent operations-Interest
+    name: F2E106
+    type: Numeric
+  - description: Independent operations-All other
+    name: F2E107
+    type: Numeric
+  - description: Operation and maintenance of plant-Total amount
+    name: F2E111
+    type: Numeric
+  - description: Operation and maintenance of plant-Salaries and wages
+    name: F2E112
+    type: Numeric
+  - description: Operation and maintenance of plant-Benefits
+    name: F2E113
+    type: Numeric
+  - description: Operation and maintenance of plant-Operation and maintenance of plant
+    name: F2E114
+    type: Numeric
+  - description: Operation and maintenance of plant-Depreciation
+    name: F2E115
+    type: Numeric
+  - description: Operation and maintenance of plant-Interest
+    name: F2E116
+    type: Numeric
+  - description: Operation and maintenance of plant-All other
+    name: F2E117
+    type: Numeric
+  - description: Other expenses-Total amount
+    name: F2E121
+    type: Numeric
+  - description: Other expenses-Salaries and wages
+    name: F2E122
+    type: Numeric
+  - description: Other expenses-Benefits
+    name: F2E123
+    type: Numeric
+  - description: Other expenses-Operation and maintenance of plant
+    name: F2E124
+    type: Numeric
+  - description: Other expenses-Depreciation
+    name: F2E125
+    type: Numeric
+  - description: Other expenses-Interest
+    name: F2E126
+    type: Numeric
+  - description: Other expenses-All other
+    name: F2E127
+    type: Numeric
+  - description: Total expenses-Total amount
+    name: F2E131
+    type: Numeric
+  - description: Total expenses-Salaries and wages
+    name: F2E132
+    type: Numeric
+  - description: Total expenses-Benefits
+    name: F2E133
+    type: Numeric
+  - description: Total expenses-Operation and maintenance of plant
+    name: F2E134
+    type: Numeric
+  - description: Total expenses-Depreciation
+    name: F2E135
+    type: Numeric
+  - description: Total expenses-Interest
+    name: F2E136
+    type: Numeric
+  - description: Total expenses-All other
+    name: F2E137
+    type: Numeric
+  - description: Does this institution or any of its foundations or other affiliated
+      organizations own endowment assets ?
+    name: F2FHA
+    type: Categorical
+  - description: Value of endowment assets at the beginning of the fiscal year
+    name: F2H01
+    type: Numeric
+  - description: Value of endowment assets at the end of the fiscal year
+    name: F2H02
+    type: Numeric
+  title: university.finances
+- description: 'This file contains data on the number of full-time, first-time degree/certificate-seeking
+    undergraduate students and all undergraduate students who receive different types
+    of student financial aid, including grants and loans, from different sources at
+    each institution. Sources and types of aid reported for full-time, first-time
+    degree/certificate-seeking undergraduate students include federal grants, Pell
+    grants, other federal grants, state/local grants, grants from the institution,
+    federal and nonfederal student loans. Types of aid reported for all undergraduates
+    include total grants, pell grants and federal loans. Included are the total and
+    average dollar amount of aid received by these students. This file also contains
+    the average net price at each institution for the following two groups: (1) full-time,
+    first-time degree/certificate-seeking undergraduate students who receive grant
+    and scholarship aid; and (2) full-time, first-time degree/certificate-seeking
+    undergraduate students who receive Title IV federal student aid. For public institutions,
+    group 1 and group 2 include only students who pay the in-district or in-state
+    tuition rate.
+
+
+
+    '
+  fields:
+  - description: Unique identification number of the institution
+    name: UNITID
+    type: Numeric
+  - description: Academic rank
+    name: ARANK
+    type: Categorical
+  - description: Instructional staff on 9, 10, 11 or 12 month contract-total
+    name: SATOTLT
+    type: Numeric
+  - description: Instructional staff on 9, 10, 11 or 12 month contract-men
+    name: SATOTLM
+    type: Numeric
+  - description: Instructional staff on 9, 10, 11 or 12 month contract-women
+    name: SATOTLW
+    type: Numeric
+  - description: Instructional staff on 9-month contract-total
+    name: SA09MCT
+    type: Numeric
+  - description: Instructional staff on 9-month contract-men
+    name: SA09MCM
+    type: Numeric
+  - description: Instructional staff on 9-month contract-women
+    name: SA09MCW
+    type: Numeric
+  - description: Instructional staff on 10-month contract-total
+    name: SA10MCT
+    type: Numeric
+  - description: Instructional staff on 10-month contract-men
+    name: SA10MCM
+    type: Numeric
+  - description: Instructional staff on 10-month contract-women
+    name: SA10MCW
+    type: Numeric
+  - description: Instructional staff on 11-month contract-total
+    name: SA11MCT
+    type: Numeric
+  - description: Instructional staff on 11-month contract-men
+    name: SA11MCM
+    type: Numeric
+  - description: Instructional staff on 11-month contract-women
+    name: SA11MCW
+    type: Numeric
+  - description: Instructional staff on 12-month contract total
+    name: SA12MCT
+    type: Numeric
+  - description: Instructional staff on 12-month contract men
+    name: SA12MCM
+    type: Numeric
+  - description: Instructional staff on 12--month contract women
+    name: SA12MCW
+    type: Numeric
+  - description: Number months covered for salary outlays - total
+    name: SAMNTHT
+    type: Numeric
+  - description: Number of months covered for salary outlays - men
+    name: SAMNTHM
+    type: Numeric
+  - description: Number of months covered for salary outlays - women
+    name: SAMNTHW
+    type: Numeric
+  - description: Salary outlays - total
+    name: SAOUTLT
+    type: Numeric
+  - description: Salary outlays - men
+    name: SAOUTLM
+    type: Numeric
+  - description: Salary outlays - women
+    name: SAOUTLW
+    type: Numeric
+  - description: Average weighted monthly salary  - total
+    name: SAAVMNT
+    type: Numeric
+  - description: Average weighted monthly salary  - men
+    name: SAAVMNM
+    type: Numeric
+  - description: Average weighted monthly salary  - women
+    name: SAAVMNW
+    type: Numeric
+  title: staff.salaries
+- description: 'This file contains data on the number of full-time, first-time degree/certificate-seeking
+    undergraduate students and all undergraduate students who receive different types
+    of student financial aid, including grants and loans, from different sources at
+    each institution. Sources and types of aid reported for full-time, first-time
+    degree/certificate-seeking undergraduate students include federal grants, Pell
+    grants, other federal grants, state/local grants, grants from the institution,
+    federal and nonfederal student loans. Types of aid reported for all undergraduates
+    include total grants, pell grants and federal loans. Included are the total and
+    average dollar amount of aid received by these students. This file also contains
+    the average net price at each institution for the following two groups: (1) full-time,
+    first-time degree/certificate-seeking undergraduate students who receive grant
+    and scholarship aid; and (2) full-time, first-time degree/certificate-seeking
+    undergraduate students who receive Title IV federal student aid. For public institutions,
+    group 1 and group 2 include only students who pay the in-district or in-state
+    tuition rate.
+
+
+
+    '
+  fields:
+  - description: Unique identification number of the institution
+    name: UNITID
+    type: Numeric
+  - description: Total number of undergraduates - financial aid cohort
+    name: SCUGRAD
+    type: Numeric
+  - description: Total number of full-time first-time degree/certificate seeking undergraduates
+      - financial aid cohort
+    name: SCUGFFN
+    type: Numeric
+  - description: Full-time first-time degree/certificate seeking undergraduates as
+      a percent of all undergraduates - financial aid cohort
+    name: SCUGFFP
+    type: Numeric
+  - description: Total number of undergraduates - fall cohort
+    name: SCFA2
+    type: Numeric
+  - description: Number of students in fall cohort
+    name: SCFA1N
+    type: Numeric
+  - description: Students in fall cohort as a percentage of all undergraduates
+    name: SCFA1P
+    type: Numeric
+  - description: Number of students in fall cohort who are paying in-district tuition
+      rates
+    name: SCFA11N
+    type: Numeric
+  - description: Percentage of students in fall cohort who are paying in-district
+      tuition rates
+    name: SCFA11P
+    type: Numeric
+  - description: Number of students in fall cohort who are paying in-state tuititon
+      rates
+    name: SCFA12N
+    type: Numeric
+  - description: Percentage of students in fall cohort who paying in-state tuition
+      rates
+    name: SCFA12P
+    type: Numeric
+  - description: Number of students in fall cohort who are paying out-of-state tuition
+      rates
+    name: SCFA13N
+    type: Numeric
+  - description: Percentage of students in fall cohort who are paying out-of-state
+      tuition rates
+    name: SCFA13P
+    type: Numeric
+  - description: Number of students in fall cohort whose residence/tuition rate is
+      unknown
+    name: SCFA14N
+    type: Numeric
+  - description: Percentage of students in fall cohort whose residence/ tuition rate
+      is unknown
+    name: SCFA14P
+    type: Numeric
+  - description: Total number of undergraduates - full-year cohort
+    name: SCFY2
+    type: Numeric
+  - description: Number of students in full-year cohort
+    name: SCFY1N
+    type: Numeric
+  - description: Students in full-year cohort as a percentage of all  undergraduates
+    name: SCFY1P
+    type: Numeric
+  - description: Number of students in full-year cohort who are paying in-district
+      tuition rates
+    name: SCFY11N
+    type: Numeric
+  - description: Percentage of students in full-year cohort who are paying in-district
+      tuition rates
+    name: SCFY11P
+    type: Numeric
+  - description: Number of students in full-year cohort who are paying in-state tuition
+      rates
+    name: SCFY12N
+    type: Numeric
+  - description: Percentage of students in full-year cohort who are paying in-state
+      tuition rates
+    name: SCFY12P
+    type: Numeric
+  - description: Number of students in full-year cohort who are paying out-of-state
+      tuition rates
+    name: SCFY13N
+    type: Numeric
+  - description: Percentage of students in full-year cohort who are paying out-of-state
+      tuition rates
+    name: SCFY13P
+    type: Numeric
+  - description: Number of students in full-year cohort whose residence/tuition rate
+      is unknown
+    name: SCFY14N
+    type: Numeric
+  - description: Percentage of students in full-year cohort whose residence/tuition
+      rate  is unknown
+    name: SCFY14P
+    type: Numeric
+  - description: Number of undergraduate students awarded federal, state, local, institutional
+      or other sources of grant aid
+    name: UAGRNTN
+    type: Numeric
+  - description: Percent of undergraduate students awarded federal, state, local,
+      institutional or other sources of grant aid
+    name: UAGRNTP
+    type: Numeric
+  - description: Total amount of federal, state, local, institutional or other sources
+      of grant aid awarded to undergraduate students
+    name: UAGRNTT
+    type: Numeric
+  - description: Average amount of federal, state, local, institutional or other sources
+      of grant aid awarded to undergraduate students
+    name: UAGRNTA
+    type: Numeric
+  - description: Number of undergraduate students awarded Pell grants
+    name: UPGRNTN
+    type: Numeric
+  - description: Percent of undergraduate students awarded Pell grants
+    name: UPGRNTP
+    type: Numeric
+  - description: Total amount of Pell grant aid awarded to undergraduate students
+    name: UPGRNTT
+    type: Numeric
+  - description: Average amount Pell grant aid awarded to undergraduate students
+    name: UPGRNTA
+    type: Numeric
+  - description: Number of undergraduate students awarded federal student loans
+    name: UFLOANN
+    type: Numeric
+  - description: Percent of undergraduate students awarded federal student loans
+    name: UFLOANP
+    type: Numeric
+  - description: Total amount of federal student loans awarded to undergraduate students
+    name: UFLOANT
+    type: Numeric
+  - description: Average amount of federal student loans awarded to undergraduate
+      students
+    name: UFLOANA
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded any financial
+      aid
+    name: ANYAIDN
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded any financial
+      aid
+    name: ANYAIDP
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded any loans to
+      students or grant aid  from federal state/local government or the institution
+    name: AIDFSIN
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded any loans
+      to students or grant aid  from federal state/local government or the institution
+    name: AIDFSIP
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded federal, state,
+      local or institutional grant aid
+    name: AGRNT_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded federal, state,
+      local or institutional grant aid
+    name: AGRNT_P
+    type: Numeric
+  - description: Total amount of federal, state, local or institutional grant aid
+      awarded to full-time first-time undergraduates
+    name: AGRNT_T
+    type: Numeric
+  - description: Average amount of federal, state, local or institutional grant aid
+      awarded
+    name: AGRNT_A
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded federal grant
+      aid
+    name: FGRNT_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded federal grant
+      aid
+    name: FGRNT_P
+    type: Numeric
+  - description: Total amount of federal grant aid awarded to full-time first-time
+      undergraduates
+    name: FGRNT_T
+    type: Numeric
+  - description: Average amount of federal grant aid awarded to full-time first-time
+      undergraduates
+    name: FGRNT_A
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded Pell grants
+    name: PGRNT_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded Pell grants
+    name: PGRNT_P
+    type: Numeric
+  - description: Total amount of Pell grant aid awarded to full-time first-time undergraduates
+    name: PGRNT_T
+    type: Numeric
+  - description: Average amount of Pell grant aid awarded to full-time first-time
+      undergraduates
+    name: PGRNT_A
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded other federal
+      grant aid
+    name: OFGRT_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded other federal
+      grant aid
+    name: OFGRT_P
+    type: Numeric
+  - description: Total amount of other federal grant aid awarded to full-time first-time
+      undergraduates
+    name: OFGRT_T
+    type: Numeric
+  - description: Average amount of other federal grant aid awarded to full-time first-time
+      undergraduates
+    name: OFGRT_A
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded state/local
+      grant aid
+    name: SGRNT_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded state/local
+      grant aid
+    name: SGRNT_P
+    type: Numeric
+  - description: Total amount of state/local grant aid awarded to full-time first-time
+      undergraduates
+    name: SGRNT_T
+    type: Numeric
+  - description: Average amount of state/local grant aid awarded to full-time first-time
+      undergraduates
+    name: SGRNT_A
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded  institutional
+      grant aid
+    name: IGRNT_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded institutional
+      grant aid
+    name: IGRNT_P
+    type: Numeric
+  - description: Total amount of institutional grant aid awarded to full-time first-time
+      undergraduates
+    name: IGRNT_T
+    type: Numeric
+  - description: Average amount of institutional grant aid awarded to full-time first-time
+      undergraduates
+    name: IGRNT_A
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded student loans
+    name: LOAN_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded student loans
+    name: LOAN_P
+    type: Numeric
+  - description: Total amount of student loans awarded to full-time first-time undergraduates
+    name: LOAN_T
+    type: Numeric
+  - description: Average amount of student loans awarded to full-time first-time undergraduates
+    name: LOAN_A
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded federal student
+      loans
+    name: FLOAN_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded federal student
+      loans
+    name: FLOAN_P
+    type: Numeric
+  - description: Total amount of federal student loans awarded to full-time first-time
+      undergraduates
+    name: FLOAN_T
+    type: Numeric
+  - description: Average amount of federal student loans awarded to full-time first-time
+      undergraduates
+    name: FLOAN_A
+    type: Numeric
+  - description: Number of full-time first-time undergraduates awarded other student
+      loans
+    name: OLOAN_N
+    type: Numeric
+  - description: Percent of full-time first-time undergraduates awarded other student
+      loans
+    name: OLOAN_P
+    type: Numeric
+  - description: Total amount of other student loans awarded to full-time first-time
+      undergraduates
+    name: OLOAN_T
+    type: Numeric
+  - description: Average amount of other student loans awarded to full-time first-time
+      undergraduates
+    name: OLOAN_A
+    type: Numeric
+  - description: Total number, 2014-15
+    name: GISTN2
+    type: Numeric
+  - description: Number living on-campus, 2014-15
+    name: GISTON2
+    type: Numeric
+  - description: Number living off-campus with family, 2014-15
+    name: GISTWF2
+    type: Numeric
+  - description: Number living off-campus not with family, 2014-15
+    name: GISTOF2
+    type: Numeric
+  - description: Number living arrangement unknown, 2014-15
+    name: GISTUN2
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, 2014-15
+    name: GISTT2
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, 2014-15
+    name: GISTA2
+    type: Numeric
+  - description: Total number, 2013-14
+    name: GISTN1
+    type: Numeric
+  - description: Number living on-campus, 2013-14
+    name: GISTON1
+    type: Numeric
+  - description: Number living off-campus with family, 2013-14
+    name: GISTWF1
+    type: Numeric
+  - description: Number living off-campus not with family, 2013-14
+    name: GISTOF1
+    type: Numeric
+  - description: Number living arrangement unknown, 2013-14
+    name: GISTUN1
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, 2013-14
+    name: GISTT1
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, 2013-14
+    name: GISTA1
+    type: Numeric
+  - description: Total number, 2012-13
+    name: GISTN0
+    type: Numeric
+  - description: Number living on-campus, 2012-13
+    name: GISTON0
+    type: Numeric
+  - description: Number living off-campus with family, 2012-13
+    name: GISTWF0
+    type: Numeric
+  - description: Number living off-campus not with family, 2012-13
+    name: GISTOF0
+    type: Numeric
+  - description: Number living arrangement unknown, 2012-13
+    name: GISTUN0
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, 2012-13
+    name: GISTT0
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, 2012-13
+    name: GISTA0
+    type: Numeric
+  - description: Total number in all income levels, 2014-15
+    name: GIS4N2
+    type: Numeric
+  - description: Number living on-campus in all income levels, 2014-15
+    name: GIS4ON2
+    type: Numeric
+  - description: Number living off-campus not with family in all income levels, 2014-15
+    name: GIS4OF2
+    type: Numeric
+  - description: Number living off-campus with family in all income levels, 2014-15
+    name: GIS4WF2
+    type: Numeric
+  - description: Number living arrangement unknown in all income levels, 2014-15
+    name: GIS4UN2
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, all income levels, 2014-15
+    name: GIS4G2
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, all income levels,
+      2014-15
+    name: GIS4T2
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, all income levels,
+      2014-15
+    name: GIS4A2
+    type: Numeric
+  - description: Number in income level (0-30,000), 2014-15
+    name: GIS4N12
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (0-30,000),
+      2014-15
+    name: GIS4G12
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (0-30,000),
+      2014-15
+    name: GIS4T12
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (0-30,000), 2014-15
+    name: GIS4A12
+    type: Numeric
+  - description: Number in income level (30,001-48,000), 2014-15
+    name: GIS4N22
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (30,001-48,000),
+      2014-15
+    name: GIS4G22
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (30,001-48,000),
+      2014-15
+    name: GIS4T22
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (30,001-48,000), 2014-15
+    name: GIS4A22
+    type: Numeric
+  - description: Number in income level (48,001-75,000), 2014-15
+    name: GIS4N32
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (48,001-75,000),
+      2014-15
+    name: GIS4G32
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (48,001-75,000),
+      2014-15
+    name: GIS4T32
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (48,001-75,000), 2014-15
+    name: GIS4A32
+    type: Numeric
+  - description: Number in income level (75,001-110,000), 2014-15
+    name: GIS4N42
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (75,001-110,000),
+      2014-15
+    name: GIS4G42
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (75,001-110,000),
+      2014-15
+    name: GIS4T42
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (75,001-110,000), 2014-15
+    name: GIS4A42
+    type: Numeric
+  - description: Number in income level (110,001 or more), 2014-15
+    name: GIS4N52
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (110,001 or
+      more), 2014-15
+    name: GIS4G52
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (110,001
+      or more), 2014-15
+    name: GIS4T52
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (110,001 or more), 2014-15
+    name: GIS4A52
+    type: Numeric
+  - description: Total number in all income levels, 2013-14
+    name: GIS4N1
+    type: Numeric
+  - description: Number living on-campus in all income levels, 2013-14
+    name: GIS4ON1
+    type: Numeric
+  - description: Number living off-campus not with family in all income levels, 2013-14
+    name: GIS4OF1
+    type: Numeric
+  - description: Number living off-campus with family in all income levels, 2013-14
+    name: GIS4WF1
+    type: Numeric
+  - description: Number living arrangement unknown in all income levels, 2013-14
+    name: GIS4UN1
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, all income levels, 2013-14
+    name: GIS4G1
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, all income levels,
+      2013-14
+    name: GIS4T1
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, all income levels,
+      2013-14
+    name: GIS4A1
+    type: Numeric
+  - description: Number in income level (0-30,000), 2013-14
+    name: GIS4N11
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (0-30,000),
+      2013-14
+    name: GIS4G11
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (0-30,000),
+      2013-14
+    name: GIS4T11
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (0-30,000), 2013-14
+    name: GIS4A11
+    type: Numeric
+  - description: Number in income level (30,001-48,000), 2013-14
+    name: GIS4N21
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (30,001-48,000),
+      2013-14
+    name: GIS4G21
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (30,001-48,000),
+      2013-14
+    name: GIS4T21
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (30,001-48,000), 2013-14
+    name: GIS4A21
+    type: Numeric
+  - description: Number in income level (48,001-75,000), 2013-14
+    name: GIS4N31
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (48,001-75,000),
+      2013-14
+    name: GIS4G31
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (48,001-75,000),
+      2013-14
+    name: GIS4T31
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (48,001-75,000), 2013-14
+    name: GIS4A31
+    type: Numeric
+  - description: Number in income level (75,001-110,000), 2013-14
+    name: GIS4N41
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (75,001-110,000),
+      2013-14
+    name: GIS4G41
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (75,001-110,000),
+      2013-14
+    name: GIS4T41
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (75,001-110,000), 2013-14
+    name: GIS4A41
+    type: Numeric
+  - description: Number in income level (110,001 or more), 2013-14
+    name: GIS4N51
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (110,001 or
+      more), 2013-14
+    name: GIS4G51
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (110,001
+      or more), 2013-14
+    name: GIS4T51
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (110,001 or more), 2013-14
+    name: GIS4A51
+    type: Numeric
+  - description: Total number in all income levels, 2012-13
+    name: GIS4N0
+    type: Numeric
+  - description: Number living on-campus in all income levels, 2012-13
+    name: GIS4ON0
+    type: Numeric
+  - description: Number living off-campus not with family in all income levels, 2012-13
+    name: GIS4OF0
+    type: Numeric
+  - description: Number living off-campus with family in all income levels, 2012-13
+    name: GIS4WF0
+    type: Numeric
+  - description: Number living arrangement unknown in all income levels, 2012-13
+    name: GIS4UN0
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, all income levels, 2012-13
+    name: GIS4G0
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, all income levels,
+      2012-13
+    name: GIS4T0
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, all income levels,
+      2012-13
+    name: GIS4A0
+    type: Numeric
+  - description: Number in income level (0-30,000), 2012-13
+    name: GIS4N10
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (0-30,000),
+      2012-13
+    name: GIS4G10
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (0-30,000),
+      2012-13
+    name: GIS4T10
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (0-30,000), 2012-13
+    name: GIS4A10
+    type: Numeric
+  - description: Number in income level (30,001-48,000), 2012-13
+    name: GIS4N20
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (30,001-48,000),
+      2012-13
+    name: GIS4G20
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (30,001-48,000),
+      2012-13
+    name: GIS4T20
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (30,001-48,000), 2012-13
+    name: GIS4A20
+    type: Numeric
+  - description: Number in income level (48,001-75,000), 2012-13
+    name: GIS4N30
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (48,001-75,000),
+      2012-13
+    name: GIS4G30
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (48,001-75,000),
+      2012-13
+    name: GIS4T30
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (48,001-75,000), 2012-13
+    name: GIS4A30
+    type: Numeric
+  - description: Number in income level (75,001-110,000), 2012-13
+    name: GIS4N40
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (75,001-110,000),
+      2012-13
+    name: GIS4G40
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (75,001-110,000),
+      2012-13
+    name: GIS4T40
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (75,001-110,000), 2012-13
+    name: GIS4A40
+    type: Numeric
+  - description: Number in income level (110,001 or more), 2012-13
+    name: GIS4N50
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (110,001 or
+      more), 2012-13
+    name: GIS4G50
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (110,001
+      or more), 2012-13
+    name: GIS4T50
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (110,001 or more), 2012-13
+    name: GIS4A50
+    type: Numeric
+  - description: Average net price-students awarded grant or scholarship aid, 2014-15
+    name: NPIST2
+    type: Numeric
+  - description: Average net price-students awarded grant or scholarship aid, 2013-14
+    name: NPIST1
+    type: Numeric
+  - description: Average net price-students awarded grant or scholarship aid, 2012-13
+    name: NPIST0
+    type: Numeric
+  - description: Average net price (income 0-30,000)-students awarded Title IV federal
+      financial aid, 2014-15
+    name: NPIS412
+    type: Numeric
+  - description: Average net price (income 30,001-48,000)-students awarded Title IV
+      federal financial aid, 2014-15
+    name: NPIS422
+    type: Numeric
+  - description: Average net price (income 48,001-75,000)-students awarded Title IV
+      federal financial aid, 2014-15
+    name: NPIS432
+    type: Numeric
+  - description: Average net price (income 75,001-110,000)-students awarded Title
+      IV federal financial aid, 2014-15
+    name: NPIS442
+    type: Numeric
+  - description: Average net price (income over 110,000)-students awarded Title IV
+      federal financial aid, 2014-15
+    name: NPIS452
+    type: Numeric
+  - description: Average net price (income 0-30,000)-students awarded Title IV federal
+      financial aid, 2013-14
+    name: NPIS411
+    type: Numeric
+  - description: Average net price (income 30,001-48,000)-students awarded Title IV
+      federal financial aid, 2013-14
+    name: NPIS421
+    type: Numeric
+  - description: Average net price (income 48,001-75,000)-students awarded Title IV
+      federal financial aid, 2013-14
+    name: NPIS431
+    type: Numeric
+  - description: Average net price (income 75,001-110,000)-students awarded Title
+      IV federal financial aid, 2013-14
+    name: NPIS441
+    type: Numeric
+  - description: Average net price (income over 110,000)-students awarded Title IV
+      federal financial aid, 2013-14
+    name: NPIS451
+    type: Numeric
+  - description: Average net price (income 0-30,000)-students awarded Title IV federal
+      financial aid, 2012-13
+    name: NPIS410
+    type: Numeric
+  - description: Average net price (income 30,001-48,000)-students awarded Title IV
+      federal financial aid, 2012-13
+    name: NPIS420
+    type: Numeric
+  - description: Average net price (income 48,001-75,000)-students awarded Title IV
+      federal financial aid, 2012-13
+    name: NPIS430
+    type: Numeric
+  - description: Average net price (income 75,001-110,000)-students awarded Title
+      IV federal financial aid, 2012-13
+    name: NPIS440
+    type: Numeric
+  - description: Average net price (income over 110,000)-students awarded Title IV
+      federal financial aid, 2012-13
+    name: NPIS450
+    type: Numeric
+  - description: Total number, 2014-15
+    name: GRNTN2
+    type: Numeric
+  - description: Number living on-campus, 2014-15
+    name: GRNTON2
+    type: Numeric
+  - description: Number living off-campus with family, 2014-15
+    name: GRNTWF2
+    type: Numeric
+  - description: Number living off-campus not with family, 2014-15
+    name: GRNTOF2
+    type: Numeric
+  - description: Number living arrangement unknown, 2014-15
+    name: GRNTUN2
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, 2014-15
+    name: GRNTT2
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, 2014-15
+    name: GRNTA2
+    type: Numeric
+  - description: Total number, 2013-14
+    name: GRNTN1
+    type: Numeric
+  - description: Number living on-campus, 2013-14
+    name: GRNTON1
+    type: Numeric
+  - description: Number living off-campus with family, 2013-14
+    name: GRNTWF1
+    type: Numeric
+  - description: Number living off-campus not with family, 2013-14
+    name: GRNTOF1
+    type: Numeric
+  - description: Number living arrangement unknown, 2013-14
+    name: GRNTUN1
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, 2013-14
+    name: GRNTT1
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, 2013-14
+    name: GRNTA1
+    type: Numeric
+  - description: Total number, 2012-13
+    name: GRNTN0
+    type: Numeric
+  - description: Number living on-campus, 2012-13
+    name: GRNTON0
+    type: Numeric
+  - description: Number living off-campus with family, 2012-13
+    name: GRNTWF0
+    type: Numeric
+  - description: Number living off-campus not with family, 2012-13
+    name: GRNTOF0
+    type: Numeric
+  - description: Number living arrangement unknown, 2012-13
+    name: GRNTUN0
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, 2012-13
+    name: GRNTT0
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, 2012-13
+    name: GRNTA0
+    type: Numeric
+  - description: Total number in all income levels, 2014-15
+    name: GRN4N2
+    type: Numeric
+  - description: Number living on-campus in all income levels, 2014-15
+    name: GRN4ON2
+    type: Numeric
+  - description: Number living off-campus not with family in all income levels, 2014-15
+    name: GRN4OF2
+    type: Numeric
+  - description: Number living off-campus with family in all income levels, 2014-15
+    name: GRN4WF2
+    type: Numeric
+  - description: Number living arrangement unknown in all income levels, 2014-15
+    name: GRN4UN2
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, all income levels, 2014-15
+    name: GRN4G2
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, all income levels,
+      2014-15
+    name: GRN4T2
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, all income levels,
+      2014-15
+    name: GRN4A2
+    type: Numeric
+  - description: Number in income level (0-30,000), 2014-15
+    name: GRN4N12
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (0-30,000),
+      2014-15
+    name: GRN4G12
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (0-30,000),
+      2014-15
+    name: GRN4T12
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (0-30,000), 2014-15
+    name: GRN4A12
+    type: Numeric
+  - description: Number in income level (30,001-48,000), 2014-15
+    name: GRN4N22
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (30,001-48,000),
+      2014-15
+    name: GRN4G22
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (30,001-48,000),
+      2014-15
+    name: GRN4T22
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (30,001-48,000), 2014-15
+    name: GRN4A22
+    type: Numeric
+  - description: Number in income level (48,001-75,000), 2014-15
+    name: GRN4N32
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (48,001-75,000),
+      2014-15
+    name: GRN4G32
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (48,001-75,000),
+      2014-15
+    name: GRN4T32
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (48,001-75,000), 2014-15
+    name: GRN4A32
+    type: Numeric
+  - description: Number in income level (75,001-110,000), 2014-15
+    name: GRN4N42
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (75,001-110,000),
+      2014-15
+    name: GRN4G42
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (75,001-110,000),
+      2014-15
+    name: GRN4T42
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (75,001-110,000), 2014-15
+    name: GRN4A42
+    type: Numeric
+  - description: Number in income level (110,001 or more), 2014-15
+    name: GRN4N52
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (110,001 or
+      more), 2014-15
+    name: GRN4G52
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (110,001
+      or more), 2014-15
+    name: GRN4T52
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (110,001 or more), 2014-15
+    name: GRN4A52
+    type: Numeric
+  - description: Total number in all income levels, 2013-14
+    name: GRN4N1
+    type: Numeric
+  - description: Number living on-campus in all income levels, 2013-14
+    name: GRN4ON1
+    type: Numeric
+  - description: Number living off-campus not with family in all income levels, 2013-14
+    name: GRN4OF1
+    type: Numeric
+  - description: Number living off-campus with family in all income levels, 2013-14
+    name: GRN4WF1
+    type: Numeric
+  - description: Number living arrangement unknown in all income levels, 2013-14
+    name: GRN4UN1
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, all income levels, 2013-14
+    name: GRN4G1
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, all income levels,
+      2013-14
+    name: GRN4T1
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, all income levels,
+      2013-14
+    name: GRN4A1
+    type: Numeric
+  - description: Number in income level (0-30,000), 2013-14
+    name: GRN4N11
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (0-30,000),
+      2013-14
+    name: GRN4G11
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (0-30,000),
+      2013-14
+    name: GRN4T11
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (0-30,000), 2013-14
+    name: GRN4A11
+    type: Numeric
+  - description: Number in income level (30,001-48,000), 2013-14
+    name: GRN4N21
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (30,001-48,000),
+      2013-14
+    name: GRN4G21
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (30,001-48,000),
+      2013-14
+    name: GRN4T21
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (30,001-48,000), 2013-14
+    name: GRN4A21
+    type: Numeric
+  - description: Number in income level (48,001-75,000), 2013-14
+    name: GRN4N31
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (48,001-75,000),
+      2013-14
+    name: GRN4G31
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (48,001-75,000),
+      2013-14
+    name: GRN4T31
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (48,001-75,000), 2013-14
+    name: GRN4A31
+    type: Numeric
+  - description: Number in income level (75,001-110,000), 2013-14
+    name: GRN4N41
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (75,001-110,000),
+      2013-14
+    name: GRN4G41
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (75,001-110,000),
+      2013-14
+    name: GRN4T41
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (75,001-110,000), 2013-14
+    name: GRN4A41
+    type: Numeric
+  - description: Number in income level (110,001 or more), 2013-14
+    name: GRN4N51
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (110,001 or
+      more), 2013-14
+    name: GRN4G51
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (110,001
+      or more), 2013-14
+    name: GRN4T51
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (110,001 or more), 2013-14
+    name: GRN4A51
+    type: Numeric
+  - description: Total number in all income levels, 2012-13
+    name: GRN4N0
+    type: Numeric
+  - description: Number living on-campus in all income levels, 2012-13
+    name: GRN4ON0
+    type: Numeric
+  - description: Number living off-campus not with family in all income levels, 2012-13
+    name: GRN4OF0
+    type: Numeric
+  - description: Number living off-campus with family in all income levels, 2012-13
+    name: GRN4WF0
+    type: Numeric
+  - description: Number living arrangement unknown in all income levels, 2012-13
+    name: GRN4UN0
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, all income levels, 2012-13
+    name: GRN4G0
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, all income levels,
+      2012-13
+    name: GRN4T0
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, all income levels,
+      2012-13
+    name: GRN4A0
+    type: Numeric
+  - description: Number in income level (0-30,000), 2012-13
+    name: GRN4N10
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (0-30,000),
+      2012-13
+    name: GRN4G10
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (0-30,000),
+      2012-13
+    name: GRN4T10
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (0-30,000), 2012-13
+    name: GRN4A10
+    type: Numeric
+  - description: Number in income level (30,001-48,000), 2012-13
+    name: GRN4N20
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (30,001-48,000),
+      2012-13
+    name: GRN4G20
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (30,001-48,000),
+      2012-13
+    name: GRN4T20
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (30,001-48,000), 2012-13
+    name: GRN4A20
+    type: Numeric
+  - description: Number in income level (48,001-75,000), 2012-13
+    name: GRN4N30
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (48,001-75,000),
+      2012-13
+    name: GRN4G30
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (48,001-75,000),
+      2012-13
+    name: GRN4T30
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (48,001-75,000), 2012-13
+    name: GRN4A30
+    type: Numeric
+  - description: Number in income level (75,001-110,000), 2012-13
+    name: GRN4N40
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (75,001-110,000),
+      2012-13
+    name: GRN4G40
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (75,001-110,000),
+      2012-13
+    name: GRN4T40
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (75,001-110,000), 2012-13
+    name: GRN4A40
+    type: Numeric
+  - description: Number in income level (110,001 or more), 2012-13
+    name: GRN4N50
+    type: Numeric
+  - description: Number awarded grant and scholarship aid, income level (110,001 or
+      more), 2012-13
+    name: GRN4G50
+    type: Numeric
+  - description: Total amount of grant and scholarship aid awarded, income level (110,001
+      or more), 2012-13
+    name: GRN4T50
+    type: Numeric
+  - description: Average amount of grant and scholarship aid awarded, income level
+      (110,001 or more), 2012-13
+    name: GRN4A50
+    type: Numeric
+  - description: Average net price-students awarded grant or scholarship aid, 2014-15
+    name: NPGRN2
+    type: Numeric
+  - description: Average net price-students awarded grant or scholarship aid, 2013-14
+    name: NPGRN1
+    type: Numeric
+  - description: Average net price-students awarded grant or scholarship aid, 2012-13
+    name: NPGRN0
+    type: Numeric
+  - description: Average net price (income 0-30,000)-students awarded Title IV federal
+      financial aid, 2014-15
+    name: NPT412
+    type: Numeric
+  - description: Average net price (income 30,001-48,000)-students awarded Title IV
+      federal financial aid, 2014-15
+    name: NPT422
+    type: Numeric
+  - description: Average net price (income 48,001-75,000)-students awarded Title IV
+      federal financial aid, 2014-15
+    name: NPT432
+    type: Numeric
+  - description: Average net price (income 75,001-110,000)-students awarded Title
+      IV federal financial aid, 2014-15
+    name: NPT442
+    type: Numeric
+  - description: Average net price (income over 110,000)-students awarded Title IV
+      federal financial aid, 2014-15
+    name: NPT452
+    type: Numeric
+  - description: Average net price (income 0-30,000)-students awarded Title IV federal
+      financial aid, 2013-14
+    name: NPT411
+    type: Numeric
+  - description: Average net price (income 30,001-48,000)-students awarded Title IV
+      federal financial aid, 2013-14
+    name: NPT421
+    type: Numeric
+  - description: Average net price (income 48,001-75,000)-students awarded Title IV
+      federal financial aid, 2013-14
+    name: NPT431
+    type: Numeric
+  - description: Average net price (income 75,001-110,000)-students awarded Title
+      IV federal financial aid, 2013-14
+    name: NPT441
+    type: Numeric
+  - description: Average net price (income over 110,000)-students awarded Title IV
+      federal financial aid, 2013-14
+    name: NPT451
+    type: Numeric
+  - description: Average net price (income 0-30,000)-students awarded Title IV federal
+      financial aid, 2012-13
+    name: NPT410
+    type: Numeric
+  - description: Average net price (income 30,001-48,000)-students awarded Title IV
+      federal financial aid, 2012-13
+    name: NPT420
+    type: Numeric
+  - description: Average net price (income 48,001-75,000)-students awarded Title IV
+      federal financial aid, 2012-13
+    name: NPT430
+    type: Numeric
+  - description: Average net price (income 75,001-110,000)-students awarded Title
+      IV federal financial aid, 2012-13
+    name: NPT440
+    type: Numeric
+  - description: Average net price (income over 110,000)-students awarded Title IV
+      federal financial aid, 2012-13
+    name: NPT450
+    type: Numeric
+  title: fin.aid
+description: Description for the database
+title: IPEDS

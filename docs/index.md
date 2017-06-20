@@ -1,16 +1,8 @@
 # Introduction
 
-This is a sample implementation of [Datadocs][datadocs]. Datadocs is a way to document your datasets, often called things like:
+This is a sample implementation of a codebook. This codebook documents two datasets I have been working with. Data from Integrated Postsecondary Education Data System (IPEDS) and the College Scorecard, which overlaps with IPEDS for some variables.
 
-- Data documentation
-- Data dictionary
-- Code book
-- etc.
+Everything on this page is completely customizable. I have some ideas for further enhancements, including:
 
-Whatever you call it, Datadocs is a way of documenting it.
-
-# Getting started with Datadocs
-
-See the `README.md` file for detailed documentation for getting started. You should however clear out the contents of `/docs`, including this file, and put in your own documentation files. You should however get started by deleting the contents of this `index.md` file and writing your own documentation index page here.
-
-[datadocs]: https://github.com/dhenderson/datadocs
+- Adding notes and comments on variables that documents issues encountered by users.
+- For ID variables, listing tables that can be linked to it.

@@ -29,4 +29,3 @@ categories: # list of categories to place your fields in
         description: 'Indicates whether this individual is both a male and likes cake. This is an example of a "tranformed" field.'
         type: "Boolean"
         transformed: true # whether the field is transformed or not
-        
